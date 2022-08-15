@@ -1,0 +1,373 @@
+.container1 {
+    margin-top: 60px;
+    margin-left: 95px;
+    height: 300px;
+    width: 300px;
+}
+
+.total {
+    display: flex;
+    flex-direction: row;
+}
+
+.name {
+    margin-top: 340px;
+    text-transform: uppercase;
+    padding: 5px;
+    line-height: 5px;
+}
+
+.first_name {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+    margin-left: 250px;
+}
+
+.second_name {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 60px;
+    margin-left: 270px;  
+}
+
+.position {
+    font-family: 'Lato', sans-serif;
+    font-size: 31px;
+    margin-left: 160px;
+    padding-top: 10px;
+    color: #2b033d;
+
+}
+.contacts {
+    z-index: 1;
+    width: 570px;
+    height: 100px;
+    background-color: #424243;
+    margin-top: 120px;
+    margin-left: 120px;
+}
+
+.contact1 {
+    color: #d0d1d3;
+    text-transform: uppercase;
+    font-size: 35px;
+    text-align: center;
+    
+    font-family: 'Lato', sans-serif;
+}
+
+.background {
+    width: 810px;
+    height: 2450px;
+    background-color:#dbd0ef;
+    margin-top: 980px;
+    z-index: -1;
+    position: absolute;
+}
+
+.address {
+    margin-left: 180px;   
+    margin-top: 50px;
+    padding-right: 10px;
+    width: 40px;
+    height: 50px;
+    margin-bottom: 30px;  
+}
+
+.address2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 30px; 
+    margin-top: 45px;
+    color: #2b033d;
+    text-decoration: underline;
+    opacity: 0.75;
+    transition: opacity .1s linear;
+}
+
+.address2:hover {
+    opacity: 1;
+}
+
+
+
+.Address3 {
+    display:flex;
+    flex-direction: row;
+}
+
+.contact {
+    margin-top: 5px;
+    margin-left: 180px;
+    display:flex;
+    flex-direction: row; 
+}
+
+.contact2 {
+    font-family: 'Lato', sans-serif;
+    color:#424243;
+    font-size: 30px; 
+    padding-left: 10px;
+    
+}
+
+.contact3 {
+    width: 40px;
+    height: 50px;
+    padding-top: 25px;
+}
+
+.email {
+    display:flex;
+    flex-direction: row;
+    margin-top: 15px;
+    margin-left: 175px;
+}
+
+.email1 {
+    width: 55px;
+    height: 45px;
+    padding-top: 30px;
+}
+
+.email2 {
+    font-family: 'Lato', sans-serif;
+    color:#424243;
+    font-size: 30px; 
+    padding-left: 5px;
+}
+
+.site {
+    display:flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 178px;
+}
+
+.site2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 30px; 
+    padding-left: 5px;
+    padding-top: 20px;
+    color: #2b033d;
+    text-decoration: underline;
+    opacity: 0.75;
+    transition: opacity .1s linear;
+}
+
+.site2:hover {
+    opacity: 1;
+}
+
+.site1 {
+    width: 55px;
+    height: 45px;
+    padding-top: 20px;
+}
+
+.follow {
+    z-index: 1;
+    width: 570px;
+    height: 100px;
+    background-color: #424243;
+    margin-top: 40px;
+    margin-left: 120px;
+}
+
+.follow1 {
+    color: #d0d1d3;
+    text-transform: uppercase;
+    font-size: 35px;
+    text-align: center;
+   
+    font-family: 'Lato', sans-serif;
+}
+
+.column1 {
+    zoom:50%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.fb, .twitter, .behance, .youtube {
+    display: flex;
+    flex-direction: row;
+    margin-top: 12px;
+    margin-left: 178px;
+    margin-bottom: 13px;
+}
+
+.fb2, .twitter2, .behance2, .youtube2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 30px; 
+    padding-left: 15px; 
+    padding-top: 50px;
+    color: #2b033d;
+    text-decoration: underline;
+    opacity: 0.75;
+    transition: opacity .1s linear;
+}
+
+.fb2:hover {
+    opacity: 1;
+}
+
+.twitter2:hover {
+    opacity: 1;
+}
+
+.behance2:hover {
+    opacity: 1;
+}
+
+.youtube2:hover {
+    opacity: 1;
+}
+
+.fb1, .twitter1, .behance1, .youtube1 {
+    width: 55px;
+    height: 45px;
+    padding-top: 40px;
+}
+
+.language, .Hobbies {
+    z-index: 1;
+    width: 570px;
+    height: 100px;
+    background-color: #424243;
+    margin-top: 40px;
+    margin-left: 120px;
+}
+
+.language1, .hobbies1 {
+    color: #d0d1d3;
+    text-transform: uppercase;
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.languages {
+    margin-left: 120px;
+    margin-top: 60px;
+}
+
+.Arabic2, .English2, .French2, .Spanish2 {
+    font-family: 'Lato', sans-serif;
+    color:#424243;
+    font-size: 30px; 
+    text-transform: uppercase;
+}
+
+.Arabic1, .English1, .French1, .Spanish1 {
+    margin-left: 120px;
+    justify-content: space-between;
+    height: 30px;
+    width: 300px;
+    display:flex;
+    flex:row;
+}
+
+.hobbies2{
+    font-family: 'Lato', sans-serif;
+    color:#424243;
+    font-size: 35px;
+    margin-left: 120px;
+    margin-top: 40px;
+}
+
+.Swimming {
+    margin-left: 40px;
+}
+
+.column2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    
+}
+
+
+.mine, .edu, .exp, .skill {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    
+}
+
+.mine2, .edu2, .exp2, .skill2 {
+    width: 10px;
+    height: 20px;
+    zoom: 75%;
+}
+
+.mine1, .edu1, .exp1, .skill1 {
+    text-transform: uppercase;  
+    font-family: 'Lato', sans-serif;
+    color: #2b033d;
+    font-size: 20px; 
+    padding-left: 80px;
+    font-weight: bold;
+}
+
+.About2, .exp3, .edu3, .skill3 {
+    font-family: 'Lato', sans-serif;
+    color:#424243;
+    font-size: 16px;
+    padding-left: 80px;
+    padding-right: 40px; 
+    padding-top: -60px;  
+}
+
+.school, .school2 {  
+    font-family: 'Lato', sans-serif;
+    color:#424243;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding-left: 80px;
+    padding-right: 40px;
+    display: flex;
+    flex-direction: row;
+    padding-top: -40px;
+    padding-bottom: -40px;
+}
+
+.skills {
+    margin-left: 120px;
+    margin-top: 30px;
+    text-align: left;
+    zoom: 50%;
+}
+
+.skills1 {
+    color: #d0d1d3;
+    text-transform: uppercase;
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.skills4 {
+        z-index: 1;
+        width: 570px;
+        height: 100px;
+        background-color: #424243;
+        margin-top: 20px;
+        margin-left: 120px;
+        zoom: 50%;
+    }
+
+.button {
+    font-family: 'Lato', sans-serif;
+    color:#424243;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    width: 200px;
+    color: #2b033d;
+    font-weight: bold;
+}
+
