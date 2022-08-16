@@ -44,6 +44,7 @@
     background-color: #424243;
     margin-top: 120px;
     margin-left: 120px;
+    
 }
 
 .contact1 {
@@ -103,11 +104,19 @@
 
 .contact2 {
     font-family: 'Lato', sans-serif;
-    color:#424243;
     font-size: 30px; 
     padding-left: 10px;
-    
+    padding-top: 25px;
+    color: #2b033d;
+    text-decoration: underline;
+    opacity: 0.75;
+    transition: opacity .1s linear;
 }
+
+.contact2:hover {
+    opacity: 1;
+}
+    
 
 .contact3 {
     width: 40px;
@@ -130,9 +139,17 @@
 
 .email2 {
     font-family: 'Lato', sans-serif;
-    color:#424243;
     font-size: 30px; 
     padding-left: 5px;
+    padding-top: 25px;
+    color: #2b033d;
+    text-decoration: underline;
+    opacity: 0.75;
+    transition: opacity .1s linear;
+}
+
+.email2:hover {
+    opacity: 1;
 }
 
 .site {
@@ -359,15 +376,19 @@
 .button {
     font-family: 'Lato', sans-serif;
     color:#424243;
-    font-size: 16px;
+    font-size: 20px;
     text-transform: uppercase;
     padding-left: 40px;
     padding-right: 40px;
     display: flex;
     flex-direction: row;
-    margin-top: 20px;
-    width: 200px;
+    margin-top: 30px;
+    width: 300px;
     color: #2b033d;
     font-weight: bold;
+}
+
+.button:hover {
+    opacity: 1;
 }
 
